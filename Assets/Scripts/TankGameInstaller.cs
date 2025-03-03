@@ -1,4 +1,4 @@
-using Unity.Cinemachine;
+using Cinemachine;
 using Tanks.Interface;
 using UnityEngine;
 using Zenject;
