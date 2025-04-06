@@ -226,6 +226,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CarnageIndicator
       objectReference: {fileID: 0}
+    - target: {fileID: 2902355902241200772, guid: 7422e7b25f5a2cc45822e51ec56f8f75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.31200027
+      objectReference: {fileID: 0}
     - target: {fileID: 6072055157893478888, guid: 7422e7b25f5a2cc45822e51ec56f8f75, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -306,11 +310,48 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6127991450657395614, guid: 7422e7b25f5a2cc45822e51ec56f8f75, type: 3}
+      propertyPath: m_colorMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6127991450657395614, guid: 7422e7b25f5a2cc45822e51ec56f8f75, type: 3}
+      propertyPath: m_enableVertexGradient
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6329037013840903671, guid: 7422e7b25f5a2cc45822e51ec56f8f75, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6526225748703749153}
   m_SourcePrefab: {fileID: 100100000, guid: 7422e7b25f5a2cc45822e51ec56f8f75, type: 3}
+--- !u!1 &2908955997760561706 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6329037013840903671, guid: 7422e7b25f5a2cc45822e51ec56f8f75, type: 3}
+  m_PrefabInstance: {fileID: 9190705206915735517}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &6526225748703749153
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2908955997760561706}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 7d2e15c023646ac4ba51eb5d1e1ce44b, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 7d2e15c023646ac4ba51eb5d1e1ce44b, type: 2}
+  - {fileID: 7400000, guid: 9b5a238808a71424887ccd51b99bbee0, type: 2}
+  - {fileID: 7400000, guid: b001016a0c0a314478814e4fb7361ab5, type: 2}
+  - {fileID: 7400000, guid: 65e2ddbe42cd5224da4c3b2d434199e4, type: 2}
+  - {fileID: 7400000, guid: 35031d68ca450814c984f2b57d9529f0, type: 2}
+  - {fileID: 7400000, guid: 67f6ea1b29976de47bfc686ce07483d6, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!224 &3156940112040437301 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6072055157893478888, guid: 7422e7b25f5a2cc45822e51ec56f8f75, type: 3}

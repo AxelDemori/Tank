@@ -642,13 +642,13 @@ MonoBehaviour:
     Min: -25
     Max: 25
   _horRotateSpeed: 2.5
-  _vertRotateSpeed: 0.2
+  _vertRotateSpeed: 0.1
   <FirePoint>k__BackingField: {fileID: 9021554992964375310}
   _controller: {fileID: 7274282267448140323}
   <Velocity>k__BackingField: 100
   _reloadDelay: 1.5
   _emitSmokeCount: 3
-  _firePower: 1200
+  _firePower: 12000
   _muzzleEffect: {fileID: 6004191277418223283}
   _smokeEffect: {fileID: 4899802482449222445}
   _hitEffect: {fileID: 198656289721292014, guid: 318d92bfb9c51a24489f25da35f234a0, type: 3}
